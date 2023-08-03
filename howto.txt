@@ -8,10 +8,7 @@ To use the Roblox Audio Fetcher GUI tool, you need to create a text file contain
 2. List Asset IDs:
    - Each line in the text file should contain a single asset ID.
    - Separate multiple asset IDs with commas.
-   - Example:
-     ```
-     asset_id_1,asset_id_2,asset_id_3
-     ```
+   - Example: 6308527743,6368268986,6308527849,6308527668
 
 3. Save the Text File:
    - Save the text file with a `.txt` extension.
