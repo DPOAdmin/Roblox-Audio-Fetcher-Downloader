@@ -20,7 +20,7 @@ A GUI tool to download audio assets from Roblox.
 
 1. Clone or download the repository.
 
-2. Install the required Python packages: ```bash pip install requests```
+2. Install the required Python packages: ```pip install requests```
   
 3. Run the audio.py script using Python: python audio.py
 
