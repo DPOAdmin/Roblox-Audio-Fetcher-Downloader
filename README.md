@@ -1,6 +1,6 @@
 # Roblox Audio Fetcher Downloader
 
-A simple GUI tool to download audio assets from Roblox.
+A GUI tool to download audio assets from Roblox.
 
 > **Note:** We recommend using a Roblox alternate account (alt) and its corresponding `.ROBLOSECURITY` cookie to avoid potential security and privacy risks.
 
