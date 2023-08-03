@@ -18,6 +18,8 @@ A GUI tool to download audio assets from Roblox.
 
 > The Place Id as to have Audio Id/Asset Id connected to the place id
 
+> Here is a Video Tutorial: 
+
 ## Usage
 
 1. Clone or download the repository.
