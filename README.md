@@ -2,6 +2,8 @@
 
 A simple GUI tool to download audio assets from Roblox.
 
+> **Note:** We recommend using a Roblox alternate account (alt) and its corresponding `.ROBLOSECURITY` cookie to avoid potential security and privacy risks.
+
 ## Usage
 
 1. Clone or download the repository.
