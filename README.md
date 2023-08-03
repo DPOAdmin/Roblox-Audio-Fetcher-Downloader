@@ -18,7 +18,7 @@ A GUI tool to download audio assets from Roblox.
 
 > The Place Id as to have Audio Id/Asset Id connected to the place id
 
-> Here is a Video Tutorial: 
+> Here is a Video Tutorial: https://www.youtube.com/watch?v=7jmCUQoU7ac
 
 ## Usage
 
