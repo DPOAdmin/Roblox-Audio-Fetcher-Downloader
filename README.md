@@ -22,7 +22,7 @@ A GUI tool to download audio assets from Roblox.
 
 2. Install the required Python packages: ```pip install requests```
   
-3. Run the audio.py script using Python: python audio.py
+3. Run the audio.py script using Python: ```python audio.py```
 
 4. Enter your Roblox cookie (.ROBLOSECURITY) and the target place ID in the GUI.
 
