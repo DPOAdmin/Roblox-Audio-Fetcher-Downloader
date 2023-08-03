@@ -1,0 +1,34 @@
+Creating an Audio Format Text File for Roblox Audio Fetcher GUI
+
+To use the Roblox Audio Fetcher GUI tool, you need to create a text file containing a list of asset IDs. Follow these steps to create the required text file:
+
+1. Open a Text Editor:
+   - Use a plain text editor like Notepad (Windows) or TextEdit (macOS) to create the text file.
+
+2. List Asset IDs:
+   - Each line in the text file should contain a single asset ID.
+   - Separate multiple asset IDs with commas.
+   - Example:
+     ```
+     asset_id_1,asset_id_2,asset_id_3
+     ```
+
+3. Save the Text File:
+   - Save the text file with a `.txt` extension.
+   - Choose a meaningful name, such as `audio_assets.txt`.
+
+4. Place the Text File:
+   - Put the text file in the same directory as the `audio.py` script.
+
+5. Run the GUI:
+   - Follow the usage instructions in the main README.md file to run the `audio.py` script.
+   - Use the "Browse" button in the GUI to select the text file you created.
+
+6. Download Audio Assets:
+   - Click the "Download All Audio Files" button to start the download.
+   - The tool will read the asset IDs from the text file and download the corresponding audio assets.
+
+7. Enjoy:
+   - You've successfully created and used an audio format text file with the Roblox Audio Fetcher GUI.
+
+For more details and updates, please refer to the project's README.md file on GitHub.
