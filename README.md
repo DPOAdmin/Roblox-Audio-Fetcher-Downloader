@@ -43,5 +43,3 @@ Requests library
 
 # License
 This project is licensed under the MIT License.
-
-Please follow the previous instructions to create the repository and add the `audio.py` file. Simply copy and paste the content of the provided `README.md` without the comments into your repository's `README.md` file.
