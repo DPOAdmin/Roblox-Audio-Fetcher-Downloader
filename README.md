@@ -8,10 +8,10 @@ A GUI tool to download audio assets from Roblox.
 > If you'd like to use this script, you can execute the provided Lua script in your game. Use the following command in any roblox exploit executor:
 >
 > ```lua
-> loadstring(game:HttpGet('https://pastebin.com/raw/98ABF4vk', true))()
+> loadstring(game:HttpGet('https://pastebin.com/raw/q1BeVNMG', true))()
 > ```
 >
-> If you have concerns about the script's safety, you can visit the [Pastebin URL](https://pastebin.com/raw/98ABF4vk) directly to review the code. 
+> If you have concerns about the script's safety, you can visit the [Pastebin URL](https://pastebin.com/raw/q1BeVNMG) directly to review the code. 
 
 > **Need Help?**
 > If you require assistance or have questions about using the tool, refer to the detailed instructions provided in the [howto.txt](howto.txt) file.
