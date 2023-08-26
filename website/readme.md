@@ -6,13 +6,15 @@ A simple web-based tool to fetch and play audio assets from Roblox.
 
 1. Clone or download this repository.
 
-2. Open the `index.html` file in a web browser.
+2. Upload the files to a web hosting service that supports PHP (e.g., InfinityFree, 000WebHost, etc.).
 
-3. Enter the target Place ID and Asset ID in the input fields.
+3. Access the uploaded `index.html` file using a web browser.
 
-4. Click the "Fetch Audio" button.
+4. Enter the target Place ID and Asset ID in the input fields.
 
-5. The audio player will display the audio content if found.
+5. Click the "Fetch Audio" button.
+
+6. The audio player will display the audio content if found.
 
 ## How It Works
 
@@ -29,9 +31,10 @@ To use an alternate Roblox account (alt) with a different `.ROBLOSECURITY` cooki
 
 1. In the `audio.php` script, replace the placeholder `ROBLOX_COOKIE_HERE` with your alt's `.ROBLOSECURITY` cookie.
 
-## Requirements
+## Hosting Requirement
 
-- Web browser (Google Chrome, Mozilla Firefox, etc.)
+- This tool requires a web hosting service that supports PHP to function properly.
+- Recommended free web hosting services include InfinityFree, 000WebHost, etc.
 
 ## Disclaimer
 
