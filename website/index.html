@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fetch Audio Location</title>
+</head>
+<body>
+    <form id="audioForm">
+        <label for="placeId">Place ID:</label>
+        <input type="text" id="placeId" name="placeId"><br>
+
+        <label for="assetId">Asset ID:</label>
+        <input type="text" id="assetId" name="assetId"><br>
+
+        <button type="button" id="fetchButton">Fetch Audio Location</button>
+    </form>
+
+    <div id="audioPlayer"></div>
+
+    <script>
+        document.getElementById("fetchButton").addEventListener("click", async function () {
+            const placeId = document.getElementById("placeId").value;
+            const assetId = document.getElementById("assetId").value;
+
+            const formData = new FormData();
+            formData.append("placeId", placeId);
+            formData.append("assetId", assetId);
+
+            const response = await fetch("audio.php", {
+                method: "POST",
+                body: formData
+            });
+
+            const audioPlayer = document.getElementById("audioPlayer");
+            if (response.ok) {
+                const audioHtml = await response.text();
+                audioPlayer.innerHTML = audioHtml;
+            } else {
+                audioPlayer.textContent = "Failed to fetch audio location.";
+            }
+        });
+    </script>
+</body>
+</html>
