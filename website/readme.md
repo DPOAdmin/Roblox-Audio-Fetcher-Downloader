@@ -1,4 +1,4 @@
-# Roblox Audio Fetcher
+# Roblox Audio Fetcher (Website Edition) Way Easier
 
 A simple web-based tool to fetch and play audio assets from Roblox.
 
