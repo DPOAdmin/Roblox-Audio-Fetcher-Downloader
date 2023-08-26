@@ -1,21 +1,24 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Fetch Audio Location</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css?v=20">
+    <title>Roblox Audio Fetcher</title>
 </head>
 <body>
-    <form id="audioForm">
-        <label for="placeId">Place ID:</label>
-        <input type="text" id="placeId" name="placeId"><br>
-
-        <label for="assetId">Asset ID:</label>
-        <input type="text" id="assetId" name="assetId"><br>
-
-        <button type="button" id="fetchButton">Fetch Audio Location</button>
-    </form>
-
-    <div id="audioPlayer"></div>
-
+    <div class="container">
+        <div class="form-container">
+            <h2>Roblox Audio Fetcher</h2>
+            <label for="placeId">Place ID:</label>
+            <input type="text" id="placeId" placeholder="Enter Place ID" required>
+            <label for="assetId">Asset ID:</label>
+            <input type="text" id="assetId" placeholder="Enter Asset ID" required>
+            <div class="button-container">
+                <button id="fetchButton">Fetch Audio</button>
+            </div>
+        </div>
+        <div id="audioPlayer" class="audio-player">
     <script>
         document.getElementById("fetchButton").addEventListener("click", async function () {
             const placeId = document.getElementById("placeId").value;
