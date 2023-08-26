@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css?v=96">
     <title>Roblox Audio Fetcher</title>
 </head>
 <body>
@@ -18,7 +18,12 @@
                 <button id="fetchButton">Fetch Audio</button>
             </div>
         </div>
-        <div id="audioPlayer" class="audio-player">
+        <div class="gap"></div>
+        <div class="result-container">
+            <div id="assetName" class="asset-name"></div>
+            <div id="audioPlayer" class="audio-player"></div>
+        </div>
+    </div>
     <script>
         document.getElementById("fetchButton").addEventListener("click", async function () {
             const placeId = document.getElementById("placeId").value;
@@ -33,11 +38,19 @@
                 body: formData
             });
 
+            const assetNameContainer = document.getElementById("assetName"); // Get asset name container
             const audioPlayer = document.getElementById("audioPlayer");
+
             if (response.ok) {
-                const audioHtml = await response.text();
-                audioPlayer.innerHTML = audioHtml;
+                const responseHtml = await response.text();
+                const parser = new DOMParser();
+                const responseDoc = parser.parseFromString(responseHtml, 'text/html');
+                const assetName = responseDoc.querySelector('h3').textContent; // Extract asset name
+                const audioHtml = responseDoc.querySelector('video').outerHTML; // Extract audio player HTML
+                assetNameContainer.textContent = assetName; // Display asset name
+                audioPlayer.innerHTML = audioHtml; // Display audio player
             } else {
+                assetNameContainer.textContent = "Failed to fetch asset name.";
                 audioPlayer.textContent = "Failed to fetch audio location.";
             }
         });
